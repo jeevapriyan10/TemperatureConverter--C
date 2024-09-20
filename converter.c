@@ -26,7 +26,7 @@ int converter(){
 
     //Conversion Part
     switch(choice){
-        case 1:
+        case 1: // Celsius to Fahrenheit
             printf("-----------------------------------------\n");
             printf("Enter the Celsius : ");
             scanf("%f",&celsius);
@@ -35,7 +35,7 @@ int converter(){
             printf("The Equivalent Fahrenheit is : %.2f°F",result);
             break;
         
-        case 2:
+        case 2: // Fahrenheit to Celsius
             printf("-----------------------------------------\n");
             printf("Enter the Fahrenheit : ");
             scanf("%f",&fahrenheit);
@@ -44,7 +44,7 @@ int converter(){
             printf("The Equivalent Celsius is : %.2f°C",result);
             break;
 
-        case 3:
+        case 3: // Celsius to Kelvin
             printf("-----------------------------------------\n");
             printf("Enter the Celsius : ");
             scanf("%f",&celsius);
@@ -53,7 +53,7 @@ int converter(){
             printf("The Equivalent Kelvin is : %.2fK",result);
             break;
 
-        case 4:
+        case 4: // Kelvin to Celsius
             printf("-----------------------------------------\n");
             printf("Enter the Kelvin : ");
             scanf("%f",&kelvin);
@@ -62,7 +62,7 @@ int converter(){
             printf("The Equivalent Celsius is : %.2f°C",result);
             break;
 
-        case 5:
+        case 5: // Fahrenheit to Kelvin 
             printf("-----------------------------------------\n");
             printf("Enter the Fahrenheit : ");
             scanf("%f",&fahrenheit);
@@ -71,7 +71,7 @@ int converter(){
             printf("The Equivalent Kelvin is : %.2fK",result);
             break;
 
-        case 6:
+        case 6: // Kelvin to Fahrenheit
             printf("-----------------------------------------\n");
             printf("Enter the Kelvin : ");
             scanf("%f",&kelvin);
