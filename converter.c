@@ -91,6 +91,6 @@ int main(){
         printf("\n\nWant to Do Again? (Y/N) : ");
         scanf("%s",&repeat);
 
-    } while(repeat == 'Y');
+    } while(repeat == 'Y' || repeat == 'y');
     return 0;
 }
